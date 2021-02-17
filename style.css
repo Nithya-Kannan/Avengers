@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    margin: 0;
+    padding-top: 800px;
+}
+
+#pg {
+    position: absolute;
+    overflow: hidden;
+    height: 800px;
+    color: #FFFFFF;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0.83;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
+    display: table;
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+
+h1 {
+    font-size: 40px;
+    line-height: 1.2;
+    font-family: sans-serif;
+    font-weight: 500;
+}
+
+.parallax-inner {
+
+    display: table-cell;
+    position: relative;
+    text-align: center;
+    vertical-align: middle;
+
+}
+
+.menu {
+    list-style: none;
+    font-family: sans-serif;
+    position: fixed;
+    top: 0px;
+    margin-top: 0px;
+    width: 100%;
+    z-index: 10;
+    cursor: pointer;
+    background-color: aliceblue;
+}
+
+.links {
+    padding-left: 33px;
+    padding-right: 25px;
+    font-family: fantasy;
+    font-size: 20px;
+    display: inline;
+}
+
+.links:hover {
+    font-size: 25px;
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: crimson;
+    text-shadow: 2px 2px gainsboro;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+#img-grid {
+    font-size: 0;
+    width: 261px;
+    margin: 0 auto;
+}
+
+#img-grid a {
+    margin: 2px;
+    border: 4px solid transparent;
+    display: inline-block;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    opacity: .5;
+
+    -webkit-transition: all .3s ease-in;
+    -moz-transition: all .3s ease-in;
+    -ms-transition: all .3s ease-in;
+    -o-transition: all .3s ease-in;
+    transition: all .3s ease-in;
+}
+
+#img-grid a:hover {
+    border-color: aliceblue;
+    opacity: 1;
+}
+
+#img-grid img {
+    border-radius: 10px;
+}
+#myCarousel{
+    background-color:aqua;
+}
+
+#myCarousel img{
+    height: 300px;
+    margin-top: 35px;
+}
+
+.carousel-inner p{
+    margin-bottom: 15px;
+    margin-top: 15px;
+    color: crimson;
+    font-size: 20px;
+}
+
+.container
+{
+    text-align: center;                           
+}

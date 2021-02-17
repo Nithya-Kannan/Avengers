@@ -1,0 +1,117 @@
+<html>
+
+<head>
+    <title> Avengers Photo Gallery </title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital@1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+</head>
+
+<body>
+    <center>
+        <ul class="menu">
+            <li class="links"><a href="#pg"> Photo Gallery </a></li>
+            <li class="links"><a href="#gg"> Grid Gallery </a> </li>
+            <li class="links"><a href="#sg"> Sliding Gallery </a> </li>
+            <li class="links"><a href="#vid"> Videos </a> </li>
+        </ul>
+    </center>
+
+    <section id="pg" class="parallax-container">
+        <div class="parallax-inner">
+            <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSU0tYsDbXoSu83_fdqcnf8PuH3jDZduwqLlg&usqp=CAU" class="profile" />
+            <h1> Avengers </h1>
+        </div>
+    </section>
+
+    <div class="container">
+
+        <section id="gg">
+            <h1> Grid Gallery </h1>
+            <br>
+            <div class="row">
+                <a href="iron%20man.jpg"> <img src="iron%20man.jpg"></a>
+                <a href="black%20widow.jpg"> <img src="black%20widow.jpg"></a>
+                <a href="captain%20america.jpg"> <img src="captain%20america.jpg"></a>
+                <a href="gamora.jpg"> <img src="gamora.jpg"></a>
+            </div>
+
+            <div class="row">
+                <a href="hulk.jpg"> <img src="hulk.jpg"></a>
+                <a href="spider%20man.jpg"> <img src="spider%20man.jpg"></a>
+                <a href="tanos.jpg"> <img src="tanos.jpg"></a>
+                <a href="thor.jpg"><img src="thor.jpg"></a>
+            </div>
+
+
+
+            <section id="sg">
+                <h1>Sliding Gallery</h1>
+                <br>
+                <div id="myCarousel" class="carousel slide" data-ride="carousel">
+                    <ol class="carousel-indicators">
+                        <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#myCarousel" data-slide-to="1"></li>
+                        <li data-target="#myCarousel" data-slide-to="2"></li>
+                        <li data-target="#myCarousel" data-slide-to="3"></li>
+                        <li data-target="#myCarousel" data-slide-to="4"></li>
+                    </ol>
+
+                    <div class="carousel-inner">
+                        <div class="item active">
+                            <center>
+                                <img src="iron%20man.jpg" class="img-responsive">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img src="spider%20man.jpg" class="img-responsive">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img src="gamora.jpg" class="img-responsive">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img src="hulk.jpg" class="img-responsive">
+                            </center>
+                        </div>
+
+                        <div class="item">
+                            <center>
+                                <img src="tanos.jpg" class="img-responsive">
+                            </center>
+                        </div>
+                    </div>
+                    
+                    <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+                    <span class="glyphicon glyphicon-chevron-left"></span>
+                    <span class="sr-only"> previous </span>
+                </a>
+                <a class="right carousel-control" href="#myCarousel" data-slide="next">
+                    <span class="glyphicon glyphicon-chevron-right"></span>
+                    <span class="sr-only"> Next </span>
+                </a>
+                    
+                </div>
+    </div>
+
+    <section id="vid">
+        <h1> Videos </h1>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/6ZfuNTqbHE8" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <br>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/SLD9xzJ4oeU" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    </section>
+</body>
+
+</html>
